@@ -13,7 +13,7 @@ header {
     background: url(../Background-image/BG\ 1\ \(1\).png), radial-gradient(50% 50% at 50% 50%, #383B6C 0%, #202247 100%);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     width: 1920px;
 }
 
@@ -238,7 +238,14 @@ header {
 /*----------------------
 ------------------- banner start */
 
+.banner {
+    display: flex;
+    align-items: center;
+}
 
-
-
-
+.banner-title {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+}
