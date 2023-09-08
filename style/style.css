@@ -348,20 +348,43 @@ header {
 }
 .banner-video{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .video-btn{
     position: absolute;
+    padding-left: 305px;
 }
 .us-patent{
     padding-top: 55.48px;
-    text-align: center;
+   padding-left: 200px;
 }
 .banner-platform{
     background-image: url(../Rectangle-img/Rectangle\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1920px;
+    height: 115px;
+}
+.banner-platform {
+    display: flex;
+    align-items: center;
+    gap: 74px;
+   
+}
+.platform-description {
+    width: 1350px;
+    padding-left: 165px;
+    padding-top: 53px;
+    color: #282563;
+    font-size: 26px;
+    font-weight: 500;
+}
+.platform-img{
+    padding-top: 54px;
+
+}
+.platform-img img{
+    padding-left: 30px;
 }
 /* -----------------------------
 -------------------header and banner section done */
