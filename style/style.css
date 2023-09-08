@@ -176,18 +176,6 @@ header {
     margin-left: -260px;
 }
 
-/* .logo-banner {
-    padding: 19px 12px;
-    border-radius: 7px;
-    background: #3BD770;
-    color: #FFF;
-}
-
-.logo-title {
-    color: #FFF;
-    padding-left: 9px;
-    font-size: 38px;
-} */
 
 .menu-item li a {
     color: #282563;
@@ -241,6 +229,11 @@ header {
 .banner {
     display: flex;
     align-items: center;
+    gap: 51px;
+}
+
+.banner-details {
+    padding-left: 165px;
 }
 
 .banner-title {
@@ -249,3 +242,126 @@ header {
     font-weight: 700;
     line-height: 54px;
 }
+
+.banner-description {
+    width: 810px;
+    height: 117px;
+    padding-top: 25px;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.banner-description1 {
+    padding-top: 25px;
+    width: 809px;
+    height: 78px;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.partner-title {
+    padding-top: 28px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.join-details {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 210px 200px auto;
+    grid-row-gap: 25px;
+    grid-column-gap: 76px;
+}
+
+.join-item {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.ratio-item p {
+    width: 231px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.join-us-Today {
+    position: relative;
+    margin-left: -195px;
+    color: #282563;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 21px;
+}
+
+.join-us {
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn1 {
+    width: 240px;
+    border: none;
+    height: 57.821px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #FFC108;
+    margin-top: 10px;
+}
+
+.icon-connection-list img{
+    padding-left: 15px;
+}
+.icon-connection-list{
+    padding-top: 65px;
+    align-items: end;
+    padding-right: 165px;
+    padding-left: 370px;
+    gap: 15px;
+}
+.refer-item{
+    padding-left: 115px;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.refer,.relax,.Reward{
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.refer-title,.relax-title,.reward-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-btn{
+    position: absolute;
+}
+.us-patent{
+    padding-top: 55.48px;
+    text-align: center;
+}
+.banner-platform{
+    background-image: url(../Rectangle-img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* -----------------------------
+-------------------header and banner section done */
