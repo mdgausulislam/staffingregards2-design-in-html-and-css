@@ -1820,6 +1820,7 @@ form.form-details {
         display: none;
     }
     .navbar{
+        width: 100%;
         flex-direction: column;
         margin-top: 0px;
         justify-content: center;
