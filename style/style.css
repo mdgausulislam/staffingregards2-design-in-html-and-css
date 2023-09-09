@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
 }
 
@@ -176,6 +175,9 @@ header {
     margin-left: -260px;
 }
 
+.menu-item li {
+    list-style: none;
+}
 
 .menu-item li a {
     color: #282563;
@@ -318,59 +320,73 @@ header {
     margin-top: 10px;
 }
 
-.icon-connection-list img{
+.icon-connection-list img {
     padding-left: 15px;
 }
-.icon-connection-list{
+
+.icon-connection-list {
     padding-top: 65px;
     align-items: end;
     padding-right: 165px;
     padding-left: 370px;
     gap: 15px;
 }
-.refer-item{
+
+.refer-item {
     padding-left: 115px;
     padding-bottom: 18px;
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.refer,.relax,.Reward{
+
+.refer,
+.relax,
+.Reward {
     padding-top: 27px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.refer-title,.relax-title,.reward-title{
+
+.refer-title,
+.relax-title,
+.reward-title {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
 }
-.banner-video{
+
+.banner-video {
     display: flex;
     align-items: center;
 }
-.video-btn{
+
+.video-btn {
     position: absolute;
     padding-left: 305px;
 }
-.us-patent{
+
+.us-patent {
     padding-top: 55.48px;
-   padding-left: 200px;
+    padding-left: 200px;
 }
-.banner-platform{
+
+.banner-platform {
     background-image: url(../Rectangle-img/Rectangle\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1920px;
     height: 115px;
 }
+
 .banner-platform {
     display: flex;
     align-items: center;
     gap: 74px;
-   
+
 }
+
 .platform-description {
     width: 1350px;
     padding-left: 165px;
@@ -379,12 +395,305 @@ header {
     font-size: 26px;
     font-weight: 500;
 }
-.platform-img{
+
+.platform-img {
     padding-top: 54px;
 
 }
-.platform-img img{
+
+.platform-img img {
     padding-left: 30px;
 }
+
 /* -----------------------------
 -------------------header and banner section done */
+
+
+
+main {
+    background: #F3F3F6;
+    width: 1920px;
+    padding-top: 94px;
+}
+
+/* -------------------------------
+--------------------------main section start---------------- */
+
+
+.container2 {
+    width: 1590px;
+    margin-left: 165px;
+    background-image: url(../Rectangle-img/Rectangle\ 77.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boss {
+    display: flex;
+    align-items: center;
+    gap: 50.73px;
+}
+
+.boss-img img {
+    padding-left: 59px;
+    padding-top: 51px;
+    padding-bottom: 36px;
+}
+
+.boss-description {
+    width: 1303px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 54px;
+    padding-right: 50px;
+
+}
+.square1 {
+    padding-left: 1522px;
+    margin-bottom: -5px;
+}
+
+/*----------------------------------------
+ ----------------------------section container-03 start */
+.container3 {
+
+    margin-left: 165px;
+}
+
+.Calculate-Potential {
+    display: flex;
+    gap: 43px;
+}
+
+.Calculate-Potential-Earnings-title {
+    padding-top: 101px;
+    padding-bottom: 60px;
+    color: #282563;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.calculate {
+    width: 502px;
+    height: 585px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 2px rgba(47, 43, 35, 0.08);
+}
+
+.calculate-description {
+    width: 418px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 48px;
+    color: #282563;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input-list {
+    padding-left: 40px;
+    color: var(--nutral-600, #7A766C);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-type-item {
+    margin-left: 40px;
+    width: 422px;
+    height: 44px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+    margin-top: 12px;
+}
+
+.btn2 {
+    margin-left: 132px;
+    margin-top: 76px;
+    width: 241px;
+    height: 61px;
+    border-radius: 7px;
+    background: #282563;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.calculate-money-country {
+    width: 1046px;
+    height: 585px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 2px rgba(47, 43, 35, 0.08);
+}
+
+.background-yellow {
+    width: 1046px;
+    height: 289px;
+    border-radius: 8px 8px 0px 0px;
+    background: #FFC108;
+}
+
+.usd-money {
+    padding-top: 25px;
+    color: #282563;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.usd-calculate {
+    padding-top: 5px;
+    padding-left: 71px;
+    color: #282563;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.calculation-dollar {
+    display: flex;
+    align-items: center;
+    padding-left: 71px;
+    padding-right: 70px;
+    padding-top: 15px;
+}
+
+.input-dollar {
+    height: 44px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 4px;
+    border: 1px solid #282563;
+    color: #282563;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.arrow-down img {
+    padding-top: 15px;
+}
+
+.arrow {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flag {
+    position: absolute;
+    padding-left: 345px;
+}
+
+.input-dollars {
+    width: 282px;
+    height: 44px;
+    text-align: center;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 12px;
+    color: #282563;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.polygon {
+    position: absolute;
+    padding-left: 595px;
+}
+
+.equal {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.usd-calculate-money {
+    color: #282563;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.inr-money {
+    padding-left: 8px;
+    color: #282563;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.time-calculate {
+    padding-top: 21px;
+    color: #282563;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.client-contact {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.client {
+    padding-left: 40px;
+    width: 610px;
+}
+
+.client-title {
+
+    padding-top: 23px;
+    padding-bottom: 5px;
+    color: #282563;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-list li {
+
+    margin-left: 40px;
+    color: #282563;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.contact {
+    margin-top: 23px;
+    width: 314px;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid #EBE8E4;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 2px rgba(47, 43, 35, 0.08);
+}
+
+.content-title {
+    padding-top: 20px;
+    color: #282563;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.join-us {
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.join-us-Today {
+    color: #FFF;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
