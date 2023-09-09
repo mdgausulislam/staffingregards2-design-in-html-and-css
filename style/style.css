@@ -449,6 +449,7 @@ main {
     padding-right: 50px;
 
 }
+
 .square1 {
     padding-left: 1522px;
     margin-bottom: -5px;
@@ -697,3 +698,55 @@ main {
     font-weight: 500;
 }
 
+/*----------------------------------
+-------------------------- container section-3 complete */
+
+
+/*----------------------------------
+-------------------------- container section-4 complete */
+
+
+.container4 {
+    padding-top: 30px;
+    margin-left: 165px;
+    width: 1590px;
+    height: 214px;
+    margin-top: 110px;
+    background: #FFF;
+}
+
+.partnership-class {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.partnership-img img {
+  
+    padding-left: 40px;
+}
+
+.partnership-info {
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+
+.partnership-description {
+    width: 945px;
+    color: #282563;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.btn3 {
+    width: 243.682px;
+    height: 77.444px;
+    border-radius: 3px;
+    background: #FFC108;
+    color: #282563;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+}
