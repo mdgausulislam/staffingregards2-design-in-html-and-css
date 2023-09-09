@@ -1812,3 +1812,36 @@ form.form-details {
     line-height: 20px;
     margin-left: 100px;
 }
+
+
+
+@media screen and (max-width:767px){
+    .container {
+        display: none;
+    }
+    .navbar{
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: center;
+    }
+    .navbar-logo{
+        padding-left: 0px;
+    }
+    .menu-item {
+        display: none;
+    }
+    header hr{
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-details{
+        padding-left: 0px;
+    }
+    .join-us{
+        padding-left: 135px;
+    } 
+    
+}
