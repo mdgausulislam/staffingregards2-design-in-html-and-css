@@ -1251,7 +1251,9 @@ main {
     grid-column-gap: 58px;
 }
 
-.Revenues,.Income,.Payouts {
+.Revenues,
+.Income,
+.Payouts {
     width: 490px;
     height: 121px;
     background: #FFF;
@@ -1278,7 +1280,8 @@ main {
     font-size: 60px;
     font-weight: 700;
 }
-.Income-title{
+
+.Income-title {
     padding: 11px 146px;
     width: 490px;
     height: 49px;
@@ -1289,7 +1292,8 @@ main {
     font-weight: 500;
 
 }
-.Payouts-title{
+
+.Payouts-title {
     padding: 11px 146px;
     width: 490px;
     height: 49px;
@@ -1307,3 +1311,251 @@ main {
 
 /*----------------------------------
 -------------------------- container section-12 start */
+
+
+.container12 {
+    width: 1920px;
+    margin-top: 110px;
+    background-color: #F3F3F6;
+}
+
+.service-list {
+    display: flex;
+    gap: 174px;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.join3 {
+    margin-left: 165px;
+}
+
+.our-details {
+    padding-left: 165PX;
+    padding-top: 90px;
+    padding-bottom: 23px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.service-details {
+    padding-left: 165px;
+    padding-top: 36px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 54px;
+}
+
+.service-it hr {
+    margin-left: 165px;
+    width: 375px;
+    height: 1px;
+    color: #333333;
+}
+
+.box {
+    margin-left: 165px;
+    width: 61px;
+    height: 17px;
+    background-color: #333333;
+    margin-top: -2px;
+}
+
+.Consulting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.careers-info {
+    padding-top: 59px;
+    padding-bottom: 90px;
+}
+
+.careers-info hr {
+    width: 1050px;
+    height: 1px;
+    color: #333333;
+
+}
+
+.Consulting-title {
+    padding-top: 40px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Consulting-description {
+    padding-top: 10px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+
+/*----------------------------------
+-------------------------- container section-12 complete */
+
+
+/*----------------------------------
+-------------------------- container section-13 start */
+
+
+.container13 {
+    position: relative;
+    height: 637px;
+    width: 1920px;
+}
+
+.container13::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 637px;
+    background: rgba(40, 37, 99, 0.65);
+    z-index: 1;
+}
+
+.container13::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 637px;
+    background-image: url(../img/MicrosoftTeams-image\ \(26\)\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.video-title {
+    z-index: 2;
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    padding-top: 116px;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 11px;
+}
+
+.video-description {
+    z-index: 2;
+    padding: 0px 80px;
+    text-align: center;
+    margin-left: 345px;
+    position: relative;
+    color: #FFF;
+    width: 1235px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container13 img {
+    padding-top: 52px;
+    z-index: 2;
+    position: relative;
+    margin: 0px 901px;
+}
+
+.video-watch {
+    position: relative;
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 26px;
+}
+
+
+
+/*----------------------------------
+-------------------------- container section-13 complete */
+
+
+/*----------------------------------
+-------------------------- container section-14 start */
+
+
+.container14 {
+    margin-right: 165px;
+    margin-top: 110px;
+    margin-left: 165px;
+    background: #FFF;
+}
+
+.Testimonial {
+    padding-top: 100px;
+    padding-left: 105px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Testimonial-details {
+    display: flex;
+    gap: 100px;
+}
+
+.happy-info {
+    width: 1000px;
+}
+
+.happy-description {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 105px;
+}
+
+.Happy-img img {
+    padding-right: 105px;
+}
+
+.emoj {
+    padding-top: 66px;
+    margin-left: 106px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.emoj-description {
+    color: #566181;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container14 hr {
+    width: 1380px;
+    height: 1px;
+    background: #333;
+    margin-left: 106px;
+    margin-top: 67px;
+}
+
+.box2 {
+    width: 57px;
+    height: 14px;
+    background: #333;
+    margin-left: 105px;
+    margin-top: -2px;
+    margin-bottom: 80px;
+}
+
+
+/*----------------------------------
+-------------------------- container section-14 complete */
+
+
+/*----------------------------------
+-------------------------- container section-15 start */
