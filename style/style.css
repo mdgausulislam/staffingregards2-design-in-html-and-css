@@ -217,8 +217,16 @@ header {
     background: #FFC108;
     height: 3px;
     width: 90px;
-    left: 870px;
+    left: 876px;
     top: 105px;
+}
+
+header hr {
+    width: 650px;
+    stroke-width: 1px;
+    margin-left: 876px;
+    margin-top: -22px;
+    stroke: #282563;
 }
 
 /*----------------------
