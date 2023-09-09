@@ -1186,3 +1186,124 @@ main {
 
 /*----------------------------------
 -------------------------- container section-10 start */
+
+.container10 {
+    margin-top: 125px;
+    background: #FFF;
+}
+
+.ratings-title {
+    padding-top: 110px;
+    color: #000;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.ratings-img {
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 36.5px;
+}
+
+.ratings-description {
+    padding-top: 51px;
+    padding-right: 165px;
+    color: #000;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*----------------------------------
+-------------------------- container section-10 complete */
+
+
+/*----------------------------------
+-------------------------- container section-11 start */
+.container11 {
+    margin-top: 115px;
+}
+
+.targets-contained {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.targets-title {
+    color: #282563;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Revenues-detail {
+    padding-top: 51px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 58px;
+}
+
+.Revenues,.Income,.Payouts {
+    width: 490px;
+    height: 121px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 2px rgba(47, 43, 35, 0.08);
+}
+
+.Revenues-title {
+    padding: 11px 146px;
+    width: 490px;
+    height: 49px;
+    background: #282563;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Revenues-money {
+    padding-left: 11px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 20px;
+    color: #282563;
+    font-size: 60px;
+    font-weight: 700;
+}
+.Income-title{
+    padding: 11px 146px;
+    width: 490px;
+    height: 49px;
+    background: #FFC108;
+    color: #282563;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.Payouts-title{
+    padding: 11px 146px;
+    width: 490px;
+    height: 49px;
+    background: #1D9E49;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/*----------------------------------
+-------------------------- container section-11 complete */
+
+
+/*----------------------------------
+-------------------------- container section-12 start */
