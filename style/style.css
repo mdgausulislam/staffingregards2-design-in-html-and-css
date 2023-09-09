@@ -514,6 +514,16 @@ main {
     gap: 12px;
     margin-bottom: 40px;
     margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--inactive-stroke, #EBE8E4);
+    color: var(--inactive-text, #A39F96);
+    font-size: 16px;
+    font-weight: 400;
+}
+.polygon1{
+        position: absolute;
+        margin-left: 425px;
+        margin-top: -65px;
 }
 
 .btn2 {
@@ -592,7 +602,7 @@ main {
 
 .flag {
     position: absolute;
-    padding-left: 345px;
+    padding-left: 365px;
 }
 
 .input-dollars {
@@ -753,7 +763,8 @@ main {
     font-weight: 600;
     border: none;
 }
-.square2{
+
+.square2 {
     margin-top: -45px;
 }
 
