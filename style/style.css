@@ -1559,3 +1559,103 @@ main {
 
 /*----------------------------------
 -------------------------- container section-15 start */
+
+
+.container15 {
+    margin-top: 111px;
+}
+
+
+
+.community-img1 {
+    width: 600px;
+    height: 578px;
+    background: #D9D9D9;
+}
+
+.community-details {
+    padding-left: 83px;
+    padding-right: 82px;
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+.community-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-img2,
+.watch2 {
+    position: absolute;
+}
+
+.watch2 {
+    margin-top: 175px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.community {
+    padding-bottom: 35px;
+    color: #1D9E49;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+.community-title {
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.community-description {
+    padding-top: 15px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.go-back {
+    padding-top: 40px;
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.go-back-description {
+    padding-top: 15px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+
+.btn4 {
+    width: 240px;
+    height: 64px;
+    border: 1px solid #333;
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    background: #F3F3F6;
+}
+
+.community-info hr {
+    width: 645px;
+    margin-left: 265px;
+}
+
+.box4 {
+    width: 60px;
+    height: 18px;
+    background: #333;
+    margin-left: 850px;
+    margin-top: -2px;
+}
