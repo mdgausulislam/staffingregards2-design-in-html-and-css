@@ -97,12 +97,9 @@ header {
 
 .navbar-logo {
     padding-left: 165px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.l-m2 {
+/* .l-m2 {
     padding-left: 6.31px;
 }
 
@@ -173,7 +170,7 @@ header {
 .sub-dot {
     margin-top: -35px;
     margin-left: -260px;
-}
+} */
 
 .menu-item li {
     list-style: none;
@@ -1813,20 +1810,52 @@ form.form-details {
     margin-left: 100px;
 }
 
-@media screen and (max-width:767px){
-   body{
-    overflow-x:hidden;
-   }
-   .container{
-    justify-content: normal;
-    gap: 20px;
-   }
-   .need-help{
-    gap: 10px;
-   }
-   .need-help-title{
-    padding-left: 20px;
-   }
+@media screen and (min-width:200px) and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        width: 100%;
+        justify-content: normal;
+        gap: 20px;
+    }
+
+    .need-help {
+        gap: 25px;
+    }
+
+    .need-help-title {
+        padding-left: 20px;
+        font-size: 12px;
+        width: 77px;
+    }
+    .mail-id{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 12px;
+        width: 67px;
+    }
+
+    .navbar{
+        background-color: #FFC108;
+        width: auto;
+        flex-direction: column;
+    }
+    .navbar-logo{
+        padding-left: 20px;
+    }
+    .navbar-menu {
+        width: 100%;
+        background-color: #FFC108;
+        flex-direction: column;
+    }
 
 
 }
